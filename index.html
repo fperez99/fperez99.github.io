@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+    
+    <link rel=”stylesheet” href=”tucarpeta/css/font-awesome.min.css“>
+    <link href="libreria/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <header>
+        <img src="img/LogoBB.png" alt="Logo">
+        <nav>
+            <a ><button onclick="on1()" class="registarse">Registrase</button></a>
+            <a ><button onclick="on()" class="iniciarsesion">Iniciar Sesion</button></a>
+        </nav>
+        
+    </header>
+    <main>
+
+        <!-- Modal Login -->
+        <script src="js/main.js"></script>
+        <div id="overlay" onclick="off()">
+            
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                <div class="login">
+                    <a class="panel" href="">Entar</a>
+                    <a class="panel" href="">Registrase</a>
+                </div>
+                
+                <div class="icon">
+                    <i id="i" class="fas fa-user-alt"></i>
+                </div>
+                <label>
+                    <input type="text" name="Usuario" placeholder="Usuario">
+                </label>
+                <label>
+                    <input type="text" name="contraseña" placeholder="Contrseña">
+                </label>
+                    
+                <a href="menu.html"><button class="iniciosesion">Iniciar Sesión</button></a>
+        
+                <a class="footermodal" href="error.html" target="_blank">Olvide mi contraseña</a>
+            </div>
+        </div>
+        </div>
+
+
+        <!-- Modal Registrarse -->
+        <div id="overlay1" onclick="off1()">
+            <div class="login">
+                <a class="panel" href="">Entar</a>
+                <a class="panel" href="">Registrase</a>
+            </div>
+            <label>
+                <input type="text" name="nombreusuario" placeholder="Nombre de Usuario">
+            </label>
+            <label>
+                <input type="text" name="nombre" placeholder="Nombre">
+            </label>
+            <label>
+                <input type="text" name="apellidos" placeholder="Apellidos">
+            </label>
+            <label>
+                <input type="text" name="correo" placeholder="Correo">
+            </label>
+            <label for="">
+                <input type="text" name="contraseña" placeholder="Contraseña">
+            </label>
+            
+            <a href="error.html"><button class="btnregistrarse">Registrarse</button></a>
+        </div> 
+
+
+        
+            
+
+
+        <div class="contenedor">
+            <div class="imgtitulo">
+                <img class="img" src="img/Portada.jpg" alt="Imagen de Portada">
+                <h1>Breaking Bad</h1>
+            <div class="pletras">
+                <p>
+                    dfghjklñvbnm,lñ
+                    dfghjkfdssdftgyu
+                </p>
+            </div>
+            </div>     
+        </div>
+        
+</main>
+    
+<footer>
+    <div class="logos">
+        <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://es-es.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+    </div>
+    <a href="error.html" class="contacto">Contacto</a>
+</footer>
+</body>
+</html>

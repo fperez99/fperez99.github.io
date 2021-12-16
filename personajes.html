@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+    <link rel=”stylesheet” href=”tucarpeta/css/font-awesome.min.css“>
+    <link href="libreria/fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+    <header>
+        <img src="img/LogoBB.png" alt="Logo">
+        <nav>
+            <ul>
+                <li>
+                    <a class="navegador" href="menu.html">Menu Principal</a>
+                </li>
+
+                <li>
+                    <a class="navegador pintar" href="personajes.html">Personajes</a>
+                </li>
+
+                <li>
+                    <a onclick="on2()" class="navegador">FAQ</a>
+                </li>
+            </ul>
+        </nav> 
+        <a class="navegador">Nombre de Usuario</a>
+    </header>
+    <main>
+
+        <script src="js/main.js"></script>
+        <!--Modal de Formulario-->
+        <div id="overlay1" onclick="off1()">
+            <div class="login panel">
+                <p>Formulario de Contacto</p>
+            </div>
+            <label>
+                <input type="text" name="nombre" placeholder="Tu Nombre">
+            </label>
+            <label>
+                <input type="text" name="nombre" placeholder="Tu email">
+            </label>
+            <label>
+                <input type="text" name="asunto" placeholder="Asunto">
+            </label>
+            <label>
+                <textarea name="" id="" cols="26" rows="7" placeholder=" Escriba su mensaje aqui"></textarea>
+            </label>
+            <button class="iniciosesion">Enviar</button>
+        </div>
+
+        <div id="overlay3" onclick="off3()">
+            <p class="ficha">Ficha Técnica</p>
+            <div class="superior">
+                <div class="img1">
+                    <img class="personaje" src="img/Breaking-Bad-Movie-Bryan-Cranston-Responds-modified.png" alt="">
+                    <p class="nom">Walter White</p>
+                </div>
+                <div class="texto1">
+                    <p class="descripcion">Nombre:</p>
+                    <p class="descripcion">Fecha Nacimiento: 12/01/1968</p>
+                    <p class="descripcion">Papel en la serie:</p>
+                    <p class="descripcion">Capitulos en los que aparece:</p>
+                    <p class="descripcion">Ocupación:</p>
+                    <p class="descripcion">Nombre en la serie:</p>
+                </div>
+            </div>
+        </div>
+            
+
+        <div class="fila1">
+            <div class="imgnombre">
+                <a onclick="on3()"><img class="personajes" src="img/Breaking-Bad-Movie-Bryan-Cranston-Responds-modified.png" alt=""></a>
+                <a onclick="on3()" class="nombre">Walter White</a>
+            </div>
+            
+            <div class="imgnombre">
+                <a href="error.html"><img class="personajes" src="img/bob-odenkirk-serie-better-call-saul-2221951-modified.png" alt=""></a>
+                <a href="error.html"class="nombre">Saul Goodman</a>
+            </div>
+
+            <div class="imgnombre">
+                <a href="error.html"><img class="personajes" src="img/jesse-pinkman-quiz-770x513-modified.png" alt=""></a>
+                <a href="error.html"class="nombre">Jesse Pinkman</a>
+            </div>
+            
+           
+        </div>
+        <div class="fila2">
+            <div class="imgnombre">
+                <a href="error.html"><img class="personajes" src="img/krysten-ritter-hablo-del-final-de-jane-en-breaking-bad-1200x900-modified.png" alt=""></a>
+                <a href="error.html"class="nombre">Jane Margolis</a>
+            </div>
+
+            <div class="imgnombre">
+                <a href="error.html"><img class="personajes" src="img/T5B_-_Skyler-modified.png" alt=""></a>
+                <a href="error.html"class="nombre">Skyler White</a>
+            </div>
+
+            <div class="imgnombre">
+                <a href="error.html"><img class="personajes" src="img/BCS_T4_Gustavo_Fring-modified.png" alt=""></a>
+                <a href="error.html"class="nombre">Gustavo Fring</a>
+            </div>   
+        </div>
+        </main>
+    
+        <footer>
+            <div class="logos">
+                <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://es-es.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+            </div>
+            <a href="error.html" class="contacto">Contacto</a>
+        </footer>
+</body>
+</html>
